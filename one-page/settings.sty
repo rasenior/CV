@@ -1,0 +1,178 @@
+\RequirePackage{silence}
+\WarningsOff[longtable]
+\WarningsOff[array]
+
+\usepackage{ifxetex,ifluatex}
+\newif\ifxetexorluatex
+\ifxetex
+  \xetexorluatextrue
+\else
+  \ifluatex
+    \xetexorluatextrue
+  \else
+    \xetexorluatexfalse
+  \fi
+\fi
+
+\RequirePackage{graphicx}
+\RequirePackage[hyphens]{url}
+\RequirePackage[main=british]{babel}
+\raggedright
+
+\RequirePackage{fontawesome}
+% \newfontfamily{\FA}{fontawesome-webfont.ttf}
+
+\newcommand{\description}{}
+\usepackage{enumitem}
+
+\RequirePackage{float}
+
+\newcommand{\smallcaps}[1]{\textsc{\lowercase{#1}}}
+
+\RequirePackage[a4paper,hmargin=1.8cm,vmargin=1cm]{geometry}
+\RequirePackage{relsize}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
+\RequirePackage{tikz}
+\usetikzlibrary{shapes,shadows}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\RequirePackage{comment}
+\definecolor{SwishLineColour}{HTML}{88AC0B}
+\definecolor{MarkerColour}{HTML}{23223e}
+\definecolor{LinkColour}{HTML}{23223e}
+
+% If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
+%\RequirePackage[backend=biber,bibstyle=apa,sorting=ymdnt,uniquename=init,maxnames=99,defernumbers=true]{biblatex}
+\usepackage[style=apa, apamaxprtauth=3,sorting=ymdnt]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+
+%% Added 17 Jan 2018 from https://tex.stackexchange.com/a/140641/226 and https://tex.stackexchange.com/a/46879/226
+\DeclareSortingScheme{ymdnt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field[strside=left,strwidth=4]{sortyear}
+    \field[strside=left,strwidth=4]{year}
+    \literal{9999}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
+
+\RequirePackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+   \node[shape=circle,text=white,fill=MarkerColour!80!black,font=\sffamily\scriptsize\bfseries,inner sep=1pt,text height=1.35ex,minimum width=1.5em,text centered] (char) {#1};}}
+   
+\newcounter{bibitem}
+\AtBeginBibliography{\setcounter{bibitem}{1}}
+\AtEveryBibitem{\makebox[2.5em][l]{\circled{\thebibitem}\stepcounter{bibitem}}}
+% \renewcommand{\bibfont}{\small}
+\setlength{\bibitemsep}{0ex}
+\setlength{\bibhang}{2.7em}
+\NewBibliographyString{retrieved}
+\NewBibliographyString{from}
+\DefineBibliographyStrings{british}{
+  from = {\textcolor{MarkerColour!80!black}{\faLink}},
+  retrieved = {}
+}
+
+\headerscale{1}
+%\setlength{\headerspace}{6pt}
+\rubricfont{\Large\bfseries\sffamily}
+\setlength{\rubricspace}{0pt}
+%\setlength{\rubricafterspace}{-9pt}
+\setlength{\rubricafterspace}{-20pt}
+\setlength{\subrubricspace}{0pt}
+\setlength{\subrubricbeforespace}{0pt}
+\def\@@rubrichead#1{%
+  \begin{tikzpicture}[baseline]%\
+  \shade[left color=SwishLineColour!60!white, right color=white] rectangle (\@almosttextwidth,2.5pt);
+  \node[font={\@rubricfont},inner sep=0pt,text ragged,anchor=south west,text depth=.5ex,text height=1.5ex] at (1pt,2pt) {#1};
+  \end{tikzpicture}%
+  \vspace\rubricspace%
+}
+
+\subrubricfont{\large\bfseries\sffamily}
+\subrubricalignment{l}
+
+\newcommand{\makefield}[2]{\makebox[1.5em]{\color{MarkerColour!80!black}#1} #2\hspace{2em}}
+
+\keyalignment{r}
+\rubricalignment{l}
+\renewcommand{\arraystretch}{1.25}
+\urlstyle{tt}
+
+\newcommand{\prefixmarker}[1]{\def\@prefixmarker{#1}}
+\def\@prefixmarker{\relscale{.9}\faBookmark}
+
+\prefix{%
+  \hspace*{-1ex}
+  \color{MarkerColour!80!black}\@prefixmarker%
+  \hspace*{1ex}%
+}
+
+\newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
+
+\defbibheading{subbibliography}{\vskip\subrubricbeforespace{\@subrubricfont\hspace{3pt}#1}\par}
+
+\defbibfilter{booksandchapters}{%
+( type=book or type=incollection )
+}
+
+\newcommand{\myname}[2]{%
+   \def\@mylastname{#1}%
+   \def\@myfirstname{#2}%
+}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\@mylastname}}
+               and
+               test {\ifdefstrequal{\namepartgiven}{\@myfirstname}}}
+    {\textbf{#1}}%
+    {#1}%
+}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\@mylastname}}
+               and
+               test {\ifdefstrequal{\namepartgiven}{\@myfirstname}}}
+    {\textbf{#1}}%
+    {#1}%
+}
+
+%\RequirePackage[colorlinks=true,allcolors=black,breaklinks=true]{hyperref}
+\RequirePackage[colorlinks=true,allcolors=LinkColour,breaklinks=true]{hyperref}
+
+\newcommand{\mychar}{%
+  \begingroup\normalfont
+  \includegraphics[height=\fontcharht\font`\B]{picture.png}%
+  \endgroup
+}

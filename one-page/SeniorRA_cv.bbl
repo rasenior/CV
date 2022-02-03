@@ -1,0 +1,396 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ymdnt/global//global/global}
+    \entry{senior_hot_2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7db996b888ae374f1bf772c15f16c6a9}
+      \strng{fullhash}{7db996b888ae374f1bf772c15f16c6a9}
+      \strng{bibnamehash}{7db996b888ae374f1bf772c15f16c6a9}
+      \strng{authorbibnamehash}{7db996b888ae374f1bf772c15f16c6a9}
+      \strng{authornamehash}{7db996b888ae374f1bf772c15f16c6a9}
+      \strng{authorfullhash}{7db996b888ae374f1bf772c15f16c6a9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Animal Ecology}
+      \field{title}{Hot and bothered: The role of behaviour and microclimates in buffering species from rising temperatures}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{senior_global_2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8608583e4f2974915032929737d887f}
+      \strng{fullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{bibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorbibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authornamehash}{b8608583e4f2974915032929737d887f}
+      \strng{authorfullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Climate Change}
+      \field{title}{Global loss of climate connectivity in tropical forests}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{senior_thermstats:_2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8608583e4f2974915032929737d887f}
+      \strng{fullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{bibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorbibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authornamehash}{b8608583e4f2974915032929737d887f}
+      \strng{authorfullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{title}{{ThermStats}: An {R} package for quantifying surface thermal heterogeneity in assessments of microclimates}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{senior_effectiveness_2019}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9096cc92466164c245a1c9c60b689478}{%
+           family={Wilcove},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oral presentation at {BES} {Annual} {Meeting}, Belfast, UK}%
+      }
+      \strng{namehash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \strng{fullhash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \strng{bibnamehash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \strng{authorbibnamehash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \strng{authornamehash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \strng{authorfullhash}{1ff2be93169c1aaed3619de23f2a8daf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Effectiveness of different conservation strategies for recovering threatened species}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{senior_tropical_2018}{article}{}
+      \name{author}{4}{ul=3}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcfb26d92136fa51ad5720ec8945557}{%
+           family={Benedick},
+           familyi={B\bibinitperiod},
+           given={Suzan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50f631c767d3bba953d6859399e4fe24}
+      \strng{fullhash}{d8c97173f7ddb1c432a088ae3493f4f2}
+      \strng{bibnamehash}{d8c97173f7ddb1c432a088ae3493f4f2}
+      \strng{authorbibnamehash}{d8c97173f7ddb1c432a088ae3493f4f2}
+      \strng{authornamehash}{50f631c767d3bba953d6859399e4fe24}
+      \strng{authorfullhash}{d8c97173f7ddb1c432a088ae3493f4f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Change Biology}
+      \field{note}{\emph{\textbf{Cover article}}}
+      \field{title}{Tropical forests are thermally buffered despite intensive selective logging}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{senior_global_2018}{book}{}
+      \name{author}{3}{ul=3}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oral presentation at {ATBC} {Annual} {Meeting}, Kuching, Malaysia}%
+      }
+      \strng{namehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{fullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{bibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorbibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authornamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorfullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global loss of climate connectivity in tropical forests}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{senior_global_2018-1}{book}{}
+      \name{author}{3}{ul=3}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oral presentation at {SCCS} {Europe}, Tihany, Hungary}%
+      }
+      \strng{namehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{fullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{bibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorbibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authornamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorfullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global loss of climate connectivity in tropical forests}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{senior_pantropical_2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f58f1978b7860b569bcc548e9b5e132}{%
+           family={González\bibnamedelimb del\bibnamedelima Pliego},
+           familyi={G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=397865d4288c52dc54dfcfbeaab527e8}{%
+           family={Goode},
+           familyi={G\bibinitperiod},
+           given={Laurel\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8608583e4f2974915032929737d887f}
+      \strng{fullhash}{9e3a40dc072cf2f2712488d6173f352e}
+      \strng{bibnamehash}{9e3a40dc072cf2f2712488d6173f352e}
+      \strng{authorbibnamehash}{9e3a40dc072cf2f2712488d6173f352e}
+      \strng{authornamehash}{b8608583e4f2974915032929737d887f}
+      \strng{authorfullhash}{9e3a40dc072cf2f2712488d6173f352e}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology and Evolution}
+      \field{title}{A pantropical analysis of the impacts of forest degradation and conversion on local temperature}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{senior_are_2016}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7db996b888ae374f1bf772c15f16c6a9}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Rebecca\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d05e6714c3a3a0866dc37325303ad}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oral presentation at Conservation Asia 2016, Singapore.}%
+      }
+      \strng{namehash}{b8608583e4f2974915032929737d887f}
+      \strng{fullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{bibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authorbibnamehash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \strng{authornamehash}{b8608583e4f2974915032929737d887f}
+      \strng{authorfullhash}{c8c418a56cc5f10ed1a036c0fd4cc3fa}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\textbf{\emph{Shortlisted for best student talk}}}
+      \field{title}{Are degraded forests climate change ready?}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
