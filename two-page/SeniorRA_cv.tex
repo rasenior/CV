@@ -57,14 +57,19 @@
 
 \usepackage{array}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
-\pagenumbering{gobble}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \leftheader{%
-  {\LARGE\bfseries\sffamily Rebecca A. Senior }
+  {\LARGE\bfseries\sffamily Rebecca A. Senior}
+  
+    \makefield{\faMapMarker}{\texttt{British}}
     \makefield{\faEnvelopeO}{\texttt{rebecca.a.senior@gmail.com}}
+    \par
     \makefield{\faGlobe}{\url{rasenior.rbind.io}}
+    \makefield{\faGithub}{\texttt{rasenior}}
+    \makefield{\faSkype}{\texttt{senior.rebecca}}
     %\makefield{\faLinkedinSquare} {\url{www.linkedin.com/in/rebecca-senior}}
 }
 
@@ -78,12 +83,28 @@
 
 \begin{document}
 \makeheaders[c]
+\pagenumbering{gobble}
 
-\makerubric{education}
+%\begin{center}
+%    
+%{\LARGE\bfseries\sffamily Rebecca A. Senior}
+%
+%\par \hfill
+%\par \textbf{Nationality}: British citizen
+%\par \textbf{Email:} \url{rebecca.a.senior@gmail.com}
+%\par \textbf{Tel:} \texttt{+44(0)7800881430}
+%\par \textbf{Skype:} \texttt{senior.rebecca}
+%\par \textbf{Github:} \texttt{rasenior}
+%\par \url{www.edwardslab.group.shef.ac.uk/rebecca_senior}
+%\end{center}
+
 \makerubric{professional-appointments}
+\makerubric{education}
 \input{publications}
+\newpage
 \makerubric{grants}
 \makerubric{invited}
 \input{conferences}
 \makerubric{service}
+
 \end{document}
